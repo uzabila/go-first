@@ -34,26 +34,6 @@ func main() {
 	default:
 		fmt.Println("3-я степень ожирения")
 	}
-
-	/* IF ELSE */
-	/*
-		if bodyIndex < 16 {
-			fmt.Println("Сильный дефицит массы тела")
-		} else if bodyIndex >= 16 && bodyIndex < 18.5 {
-			fmt.Println("Дефицит массы тела")
-		} else if bodyIndex >= 18.5 && bodyIndex < 25 {
-			fmt.Println("Норма")
-		} else if bodyIndex >= 25 && bodyIndex < 30 {
-			fmt.Println("Избыточная масса")
-		} else if bodyIndex >= 30 && bodyIndex < 35 {
-			fmt.Println("1-я степень ожирения")
-		} else if bodyIndex >= 35 && bodyIndex < 40 {
-			fmt.Println("2-я степень ожирения")
-		} else if bodyIndex > 40 {
-			fmt.Println("3-я степень ожирения")
-		}
-	*/
-
 }
 
 func outputIndex(bodyIndex float64) {
